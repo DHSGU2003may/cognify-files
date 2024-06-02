@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development: Level-2, Task-1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --main-background-color: #f8f9fa;
+            /* Light grey */
+            --main-font-color: #333;
+            /* Dark grey */
+        }
+
+        body {
+            background-color: var(--main-background-color);
+            color: var(--main-font-color);
+        }
+
+
+        .section-title {
+            font-size: 2rem;
+            font-weight: 600;
+        }
+
+        .card {
+            background-color: #f3f4f6;
+            /* Lighter grey than main background */
+        }
+
+        .card-title {
+            font-size: 1.2rem;
+            color: #555;
+            /* Darker color than the main font color */
+        }
+
+        .footer {
+            bottom: 0;
+            width: 100%;
+        }
+
+        .footer .container {
+            font-size: 1rem;
+            color: lightgrey;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="container-fluid bg-white text-white py-3">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <!-- Company Logo -->
+                <div class="logo">
+                    <a href="https://cognifyz.com/">
+                        <img src="https://cognifyz.com/wp-content/uploads/2023/11/cognifyz-1.png"
+                            alt="Cognifyz Technologies Logo" width="100">
+                    </a>
+                </div>
+                <!-- Navigation Links -->
+                <nav class="navbar navbar-expand-md">
+                    <div class=" justify-content-end"> <!-- navbar-collapse collapse -->
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://cognifyz.com/" target="_blank">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://cognifyz.com/about-us/" target="_blank">About us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://cognifyz.com/contact-us/" target="_blank">Contact
+                                    us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Courses Section -->
+    <section class="container py-5">
+        <h2 class="text-center mb-4 section-title">Courses</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <a href="https://cognifyz.com/courses/#" target="_blank">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw77GmFTQv0VuPq5iKqCwGel_p2VWKCp3HPw&s"
+                            class="card-img-top zoom-image" alt="Full Stack Development"></a>
+                    <div class="card-body">
+                        <a href="https://cognifyz.com/courses/#" target="_blank">
+                            <h5 class="card-title has-text-black">Full Stack Development</h5>
+                        </a>
+                        <p class="card-text"> Comprehensive course covering both frontend and backend development
+                            technologies, including HTML, CSS, JavaScript, Node.js, and databases, to equip you with the
+                            skills needed to build modern web applications..</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <a href="https://cognifyz.com/courses/#" target="_blank">
+                        <img src="https://www.emertxe.com/wp-content/uploads/2020/07/python-programming-internship.jpg"
+                            class="card-img-top zoom-image" alt="Python Certification"></a>
+                    <div class="card-body">
+                        <a href="https://cognifyz.com/courses/#" target="_blank">
+                            <h5 class="card-title has-text-black">Python Certification</h5>
+                        </a>
+                        <p class="card-text">Beginner-friendly course focusing on Python programming language, covering
+                            fundamental concepts and practical applications for data analysis, web development, and
+                            automation.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <a href="https://cognifyz.com/courses/#" target="_blank">
+                        <img src="https://lms.pantechelearning.com/s/store/courses/62aac4600cf2ae7ea3d32a7e/cover.jpg?v=3"
+                            class="card-img-top zoom-image" alt="Java Course"></a>
+                    <div class="card-body">
+                        <a href="https://cognifyz.com/courses/#" target="_blank">
+                            <h5 class="card-title has-text-black">Java Course</h5>
+                        </a>
+                        <p class="card-text">In-depth course on Java programming language, covering object-oriented
+                            programming concepts, data structures, algorithms, and application development for desktop,
+                            web, and mobile platforms.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Internships Section -->
+    <section class="container py-5">
+        <h2 class="text-center mb-4 section-title">Internships</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <a href="https://cognifyz.com/glow_portfolio/web-development/" target="_blank">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLQN2Crg02swVE2VD2UchQEPl-QT0f3OShntBIBFGGDQ&s"
+                            class="card-img-top zoom-image" alt="Web Development"></a>
+                    <div class="card-body">
+                        <a href="https://cognifyz.com/glow_portfolio/web-development/" target="_blank">
+                            <h5 class="card-title has-text-black">Web Development</h5>
+                        </a>
+                        <p class="card-text">Hands-on internship opportunity to gain practical experience in web
+                            development, working on real-world projects and enhancing skills in HTML, CSS, JavaScript,
+                            and web frameworks like React, Bulma, UIKit, Bootstrap, etc.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <a href="https://cognifyz.com/glow_portfolio/software-development/" target="_blank">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRUKh8mpDfhl6AZRamnPPE0KMwAf4uwsmMnQ&s"
+                            class="card-img-top  zoom-image" alt="Software Development"></a>
+                    <div class="card-body">
+                        <a href="https://cognifyz.com/glow_portfolio/software-development/" target="_blank">
+                            <h5 class="card-title has-text-black">Software Development</h5>
+                        </a>
+                        <p class="card-text">Internship program focused on software development, providing experience in
+                            software design, coding, testing, and maintenance, using industry-standard tools and
+                            practices.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <a href="https://cognifyz.com/glow_portfolio/machine-learning/" target="_blank">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReL13gxL3IWtyuN7MvHA4GF7qELHoy0oqTRXegQk93vQ&s"
+                            class="card-img-top zoom-image" alt="Machine Learning"></a>
+                    <div class="card-body">
+                        <a href="https://cognifyz.com/glow_portfolio/machine-learning/" target="_blank">
+                            <h5 class="card-title has-text-black">Machine Learning</h5>
+                        </a>
+                        <p class="card-text">Internship focused on machine learning, offering the opportunity to work on
+                            projects involving data analysis, modeling, and implementation of machine learning
+                            algorithms using Python, TensorFlow, or other frameworks.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer py-3 bg-dark text-white">
+        <div class="container text-end">
+            Made with ❤︎ by DSK
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var zoomImages = document.querySelectorAll('.zoom-image');
+            zoomImages.forEach(function (image) {
+                image.addEventListener('mouseover', function () {
+                    image.style.transform = 'scale(0.98)';
+                    image.style.transition = 'transform 0.5s';
+                });
+                image.addEventListener('mouseout', function () {
+                    image.style.transform = 'scale(1)';
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

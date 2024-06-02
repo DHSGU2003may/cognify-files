@@ -1,0 +1,24 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: green;
+}
+.button{
+    padding: 20px 80px;
+    background: purple;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 40px purple;
+    font-size: 32px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}

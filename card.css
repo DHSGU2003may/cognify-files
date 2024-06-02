@@ -1,0 +1,57 @@
+body{
+    background-color: #fff;
+    font-family: "Roboto", sans-serif;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.card{
+    width: 310px;
+    height: 463px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    margin-inline: 33px;
+}
+.img-div img{
+    width: 140px;
+    height: 140px;
+    border-radius: 46%;
+    margin-top: 20px;
+
+}
+.img-div{
+    background-color: blue;
+    height: 190px;
+    border-radius: 10px;
+}
+.card p{
+    font-size: 13px;
+    color: black;
+}
+.card button{
+    width: 180px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 4px;
+    color: white;
+    font-size: 25px;
+    border: none;
+}
+.icon{
+    font-size: 37px;
+    margin: 14px;
+
+}
+.icon i{
+    margin-inline: 10px;
+}
+.icon span{
+    color: blue;
+}
+
+
